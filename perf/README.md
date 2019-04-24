@@ -16,15 +16,19 @@ We will be testing the [Blazemeter Demo App](http://blazedemo.com).
 ```
 locust --host=http://blazedemo.com --port=9000 -f app.py
 ```
+![Locust Dashboard](../img/locust_1.png)
+![Locust Visualization](../img/locust_2.png)
 
 (locust no-web)
 ```
 locust --host=http://blazedemo.com --port=9000 -f app.py --no-web -c 10 -r 1 -t 1m
 ```
+![Locust No Web](../img/locust_no_web.png)
 
 (taurus)
 ```
 bzt demo.yml
 ```
+![Taurus Dashboard](../img/taurus.png)
 
 Use `locust --help` or `bzt --help` to get more information about the command, and all allowed options.
