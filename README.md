@@ -27,3 +27,5 @@ The directory should look like:
 ```
 pip install -r perf/requirements.txt
 ```
+
+:smiley::wink: enjoy:zzz::ok_hand:
