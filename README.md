@@ -4,4 +4,8 @@ Code for a presentation at the [Nairobi Tech Week](https://nairobitechweek.com/)
 ### Installation
 You need to have [Python](https://www.python.org/) installed, [Python 3](https://www.python.org/downloads/) preferably, as well as [git](https://git-scm.com/).
 
-1. `git clone git@github.com:clovisphere/nairobi-tech-week-workshop.git && cd nairobi-tech-week-workshop`
+1. Clone this repo, and make it your working directory.
+```
+git clone git@github.com:clovisphere/nairobi-tech-week-workshop.git && cd nairobi-tech-week-workshop
+```
+2. Using either [pipenv](https://pipenv.readthedocs.io/en/latest/), [virtualenv](https://virtualenv.pypa.io/en/latest/) or [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) create an environment, and install the required packages.
