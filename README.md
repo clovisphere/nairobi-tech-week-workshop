@@ -12,15 +12,7 @@ git clone git@github.com:clovisphere/nairobi-tech-week-workshop.git && cd nairob
 
 The directory should look like:
 
-```
-.
-├── Locust-Presentation.pptx
-├── README.md
-└── perf
-    ├── app.py
-    ├── demo.yml
-    └── requirements.txt
-```
+![Directory Tree](img/directory.png)
 
 2. Using [pipenv](https://pipenv.readthedocs.io/en/latest/), [virtualenv](https://virtualenv.pypa.io/en/latest/) or [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) create an environment, and install the required packages.
 
