@@ -1,2 +1,3 @@
-# nairobi-tech-week-workshop
-Code example for the Nairobi Tech Week workshop
+# Performance Testing Workshop
+
+Code example for the [Nairobi Tech Week](https://nairobitechweek.com/). 
