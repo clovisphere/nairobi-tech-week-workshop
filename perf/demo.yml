@@ -20,3 +20,11 @@ scenarios:
     demo:
         default-address: http://blazedemo.com
         script: app.py
+
+services:
+    - module: shellexec
+      post-process:
+      - echo "Deleting test data.."
+      - rm -rf 2019-*
+
+provisioning: local
