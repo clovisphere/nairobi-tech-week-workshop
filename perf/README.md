@@ -1,4 +1,4 @@
-## How To:
+## How To
 
 ##### Install Python Packages:
 
