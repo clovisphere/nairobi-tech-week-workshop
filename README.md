@@ -8,4 +8,4 @@ You need to have [Python](https://www.python.org/) installed, [Python 3](https:/
 ```
 git clone git@github.com:clovisphere/nairobi-tech-week-workshop.git && cd nairobi-tech-week-workshop
 ```
-2. Using either [pipenv](https://pipenv.readthedocs.io/en/latest/), [virtualenv](https://virtualenv.pypa.io/en/latest/) or [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) create an environment, and install the required packages.
+2. Using [pipenv](https://pipenv.readthedocs.io/en/latest/), [virtualenv](https://virtualenv.pypa.io/en/latest/) or [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) create an environment, and install the required packages.
