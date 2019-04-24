@@ -25,3 +25,5 @@ locust --host=http://blazedemo.com --port=9000 -f app.py --no-web -c 10 -r 1 -t 
 ```
 bzt demo.yml
 ```
+
+Use `locust --help` or `bzt --help` to get more information about the command, and all allowed options.
