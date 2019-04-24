@@ -1,0 +1,22 @@
+execution:
+    - executor: locust
+      concurrency:
+          local: 10
+          cloud: 50
+      locations:
+          us-west-1: 1
+          us-east-1: 2
+          us-west-2: 1
+          eu-west-1: 1
+      locations-weighted: true
+      throughput:
+          local: 20
+          cloud: 100
+      ramp-up: 30s
+      hold-for: 15m
+      scenario: demo
+
+scenarios:
+    demo:
+        default-address: http://blazedemo.com
+        script: app.py
