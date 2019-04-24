@@ -23,7 +23,6 @@ locust --host=http://blazedemo.com --port=9000 -f app.py
 ```
 locust --host=http://blazedemo.com --port=9000 -f app.py --no-web -c 10 -r 1 -t 1m
 ```
-![Locust No Web](../img/locust_no_web.png)
 
 (taurus)
 ```
